@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NB Start */
+body{
+    background-image: url(./backgrounds/tianjin-2185510_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: opacity(85%);
+}
+
+.navbar-brand{
+    font-family: caveat;
+    font-size: 235%;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.nav-link{
+    font-family: satisfy;
+    font-size: 33px;
+    font-weight: 600 !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: rgb(175, 98, 9) !important;
+}
+
+#navbarNav{
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+/* NB End */
+
+/* MP Start */
+.main{
+    text-align: center !important;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    position: relative; */
+    padding: 15% 0%;
+    filter: opacity(70%);
+
+}
+.middle{
+    font-size: 50px;
+    color: white;
+    font-family: satisfy;
+    background: black;
+    padding: 1% ;
+    transition: 0.3s;
+    cursor: default;
+    
+}
+
+.middle:hover{
+    color: rgb(255, 136, 0);
+    box-shadow: 0px 0px 20px 10px rgb(255, 136, 0);
+}
